@@ -5,7 +5,7 @@ public class jurosCompostos {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
-
+        
         System.out.println("Qual foi o valor total da compra?");
         double valorCompra = scanner.nextDouble();
 
