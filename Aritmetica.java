@@ -13,11 +13,10 @@ public class Aritmetica {
         System.out.println("Digite a posiçao valor");
         int posiçao = scanner.nextInt();
 
-        for(int i = 1; i<posiçao;i++){
-            a1= a1*q;
-            
-        }
+      double progressao = a1*Math.pow(q, posiçao-1);
 
-        System.out.println("O valor do termo na posição "+posiçao+" é "+a1);
+        System.out.println("O valor do termo na posição "+posiçao+" é "+progressao);
+
+        scanner.close();
     }
 }
