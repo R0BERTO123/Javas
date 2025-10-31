@@ -16,7 +16,7 @@ public class AnoNovo {
         System.out.println("Digite o fuso");
         int fuso = scanner.nextInt();
 
-        scanner.nextLine();
+         scanner.nextLine();
 
         System.out.println("Qual é a cidade?");
         String cidade = scanner.nextLine();
